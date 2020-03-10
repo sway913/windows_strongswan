@@ -1,6 +1,8 @@
 # strongswan on windows
 关于strongswan在windows平台上面的尝试
+
 结论：官网介绍：不支持虚拟ip,所以不能用做客户端。
+
 【这条路不通】
 
 以下是踩坑过程：
