@@ -44,6 +44,7 @@ libtpmtss:
 
 
 2020年3月4日测试可以启动守护程序。
+
 在kernel_wfp_ipsec.c中register_events时需要启动相关服务，加入以下代码，否则报
 registering for WFP events failed错误导致后面报socket找不到依赖的问题。
 FWP_VALUE0 val = {0};
@@ -63,7 +64,9 @@ if (res != ERROR_SUCCESS)
 先启动守护程序charon-svc.exe
 
 #加载配置
+
 swanctl -q
+
 swanctl --initiate --child ios_ikev2
 
 
