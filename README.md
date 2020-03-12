@@ -7,6 +7,7 @@
 
 以下是踩坑过程：
 1、build openssl
+
 一定要用tar的命令行解压源码压缩包，要不然各种报错。
 ./Configure --prefix=$PWD/../libs no-idea no-mdc2 no-rc5 shared mingw
 ./Configure --prefix=$PWD/../libs no-idea no-mdc2 no-rc5 shared mingw64
