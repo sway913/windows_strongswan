@@ -60,6 +60,7 @@ if (res != ERROR_SUCCESS)
 
 
 注意：
+
 1、必须关闭windows的IKEEXT（IKE and AuthIP IPsec Keying Modules）服务，要不然端口被占用，接收不了数据。
 
 2、00[KNL] registering WFP provider failed: 0x00000005  出现错误时需要使用管理员权限运行。
