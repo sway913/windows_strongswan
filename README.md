@@ -65,6 +65,8 @@ if (res != ERROR_SUCCESS)
 
 2、00[KNL] registering WFP provider failed: 0x00000005  出现错误时需要使用管理员权限运行。
 
+3、swanctl/swanctl.conf文件下面的local_addrs 需要改成你本地计算机的地址。
+
 #执行命令
 
 先启动守护程序charon-svc.exe
