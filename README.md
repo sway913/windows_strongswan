@@ -6,6 +6,7 @@
 【这条路不通】
 
 以下是踩坑过程：
+
 1、build openssl
 
 一定要用tar的命令行解压源码压缩包，要不然各种报错。
@@ -62,6 +63,7 @@ if (res != ERROR_SUCCESS)
 #必须关闭windows的IKEEXT（IKE and AuthIP IPsec Keying Modules）服务
 要不然端口被占用，接收不了数据。
 #执行命令
+
 先启动守护程序charon-svc.exe
 
 #加载配置
