@@ -69,7 +69,7 @@ if (res != ERROR_SUCCESS)
 
 #执行命令
 
-先启动守护程序charon-svc.exe
+打开管理员权限的cmd先启动守护程序charon-svc.exe
 
 #加载配置
 
